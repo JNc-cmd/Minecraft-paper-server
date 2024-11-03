@@ -1,0 +1,901 @@
+[21:44:31] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-Ubuntu-1ubuntu224.04; Ubuntu null) on Linux 6.8.0-48-generic (amd64)
+[21:44:31] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) for Minecraft 1.21.1
+[21:44:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:44:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[21:44:35] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Geyser-Spigot (2.4.4-SNAPSHOT), JustTPA (v20240824-beta), LightAntiCheat (1.2.6), ViaVersion (5.1.0), floodgate (2.2.3-SNAPSHOT (b113-06f2ed9))
+[21:44:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:44:48] [ServerMain/INFO]: Loaded 1290 recipes
+[21:44:49] [ServerMain/INFO]: Loaded 1399 advancements
+[21:44:49] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[21:44:49] [Server thread/WARN]: ****************************
+[21:44:49] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[21:44:49] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[21:44:49] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[21:44:49] [Server thread/WARN]: ****************************
+[21:44:49] [Server thread/INFO]: Loading properties
+[21:44:49] [Server thread/INFO]: This server is running Paper version 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[21:44:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:44:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:44:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:44:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[21:44:54] [Server thread/INFO]: Default game type: SURVIVAL
+[21:44:54] [Server thread/INFO]: Generating keypair
+[21:44:54] [Server thread/INFO]: Starting Minecraft server on 23.239.17.165:25565
+[21:44:54] [Server thread/INFO]: Using epoll channel type
+[21:44:54] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:44:54] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[21:44:56] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b113-06f2ed9)
+[21:44:58] [Server thread/INFO]: [floodgate] Took 2,101ms to boot Floodgate
+[21:44:58] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.0
+[21:44:58] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.0 is now loaded. Registering protocol transformers and injecting...
+[21:44:59] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:45:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:45:00] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.4-SNAPSHOT
+[21:45:02] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:45:02] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:45:02] [Server thread/INFO]: [LightAntiCheat] Loading server plugin LightAntiCheat v1.2.6
+[21:45:02] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA vv20240824-beta
+[21:45:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:45:02] [Server thread/INFO]: Preparing level "Nasakills server"
+[21:45:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:45:06] [Server thread/INFO]: Time elapsed: 3164 ms
+[21:45:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:45:07] [Server thread/INFO]: Time elapsed: 689 ms
+[21:45:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:45:07] [Server thread/INFO]: Time elapsed: 359 ms
+[21:45:07] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b113-06f2ed9)
+[21:45:09] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.0
+[21:45:09] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[21:45:09] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.4-SNAPSHOT
+[21:45:10] [Server thread/INFO]: [LightAntiCheat] Enabling LightAntiCheat v1.2.6
+[21:45:12] [Server thread/INFO]: [JustTPA] Enabling JustTPA vv20240824-beta
+[21:45:12] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[21:45:12] [Server thread/INFO]: [JustTPA] bStats enabled
+[21:45:12] [Server thread/INFO]: [JustTPA] Checking for updates...
+[21:45:12] [Server thread/INFO]: [spark] Starting background profiler...
+[21:45:12] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:45:12] [Server thread/INFO]: [Geyser-Spigot] 
+[21:45:12] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.4-b699 (git-master-3f60db1)
+[21:45:12] [Server thread/INFO]: [Geyser-Spigot] 
+[21:45:12] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:45:29] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
+[21:45:29] [Server thread/INFO]: [Geyser-Spigot] Done (16.403s)! Run /geyser help for help!
+[21:45:29] [Server thread/INFO]: Done preparing level "Nasakills server" (26.981s)
+[21:45:29] [Server thread/INFO]: Running delayed init tasks
+[21:45:29] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:45:29] [Server thread/INFO]: Done (60.133s)! For help, type "help"
+[21:45:29] [Server thread/INFO]: Timings Reset
+[21:45:30] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.1.1, you're on: 5.1.0
+[21:45:30] [Craft Scheduler Thread - 6 - JustTPA/INFO]: [JustTPA] You are using the latest version for your server.
+[21:45:50] [User Authenticator #0/INFO]: UUID of player NASAKILL is a44e35f0-2af3-49fe-a1a4-927c7be319a1
+[21:45:53] [Server thread/INFO]: NASAKILL joined the game
+[21:45:53] [Server thread/INFO]: NASAKILL[/172.56.69.88:59546] logged in with entity id 59 at ([Nasakills server]-1164.447405101688, 63.0, 372.177676238346)
+[21:45:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
+[21:47:14] [Async Chat Thread - #2/INFO]: <NASAKILL> lol
+[21:49:17] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ProGamer43254
+[21:49:17] [localSession-7-2/INFO]: [Geyser-Spigot] ProGamer43254 (logged in as: ProGamer43254) has connected to the Java server
+[21:49:18] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 joined (UUID: 00000000-0000-0000-0009-01ff7a5717b4)
+[21:49:18] [Server thread/INFO]: .ProGamer43254 joined the game
+[21:49:18] [Server thread/INFO]: .ProGamer43254[/24.57.60.20:0] logged in with entity id 604 at ([Nasakills server]0.5, 65.0, 0.5)
+[21:49:29] [Async Chat Thread - #4/INFO]: [Not Secure] <.ProGamer43254> helo
+[21:49:32] [Async Chat Thread - #4/INFO]: [Not Secure] <.ProGamer43254> hello
+[21:49:34] [Async Chat Thread - #3/INFO]: [Not Secure] <.ProGamer43254> hello
+[21:49:34] [Async Chat Thread - #4/INFO]: <NASAKILL> hi
+[21:49:35] [Async Chat Thread - #3/INFO]: [Not Secure] <.ProGamer43254> yay
+[21:49:38] [Async Chat Thread - #3/INFO]: [Not Secure] <.ProGamer43254> it works
+[21:49:47] [Async Chat Thread - #3/INFO]: [Not Secure] <.ProGamer43254> wya
+[21:49:47] [Async Chat Thread - #3/INFO]: <NASAKILL> tpa to me
+[21:49:53] [Server thread/INFO]: .ProGamer43254 issued server command: /tp NASAKILL
+[21:49:53] [Server thread/INFO]: [.ProGamer43254: Teleported .ProGamer43254 to NASAKILL]
+[21:50:01] [Server thread/INFO]: NASAKILL issued server command: /deop .ProGamer43254
+[21:50:01] [Server thread/INFO]: [NASAKILL: Made .ProGamer43254 no longer a server operator]
+[21:50:05] [Async Chat Thread - #4/INFO]: <NASAKILL> had to sorry
+[21:50:13] [Async Chat Thread - #4/INFO]: [Not Secure] <.ProGamer43254> is this ganna be the perm world?
+[21:50:16] [Async Chat Thread - #4/INFO]: <NASAKILL> you can earn it back
+[21:50:17] [Async Chat Thread - #4/INFO]: <NASAKILL> yep
+[21:50:33] [Async Chat Thread - #3/INFO]: <NASAKILL> sorry
+[21:50:47] [Async Chat Thread - #3/INFO]: [Not Secure] <.ProGamer43254> brb
+[21:51:27] [Server thread/INFO]: NASAKILL issued server command: /gamerule playersSleepingPercentage 0
+[21:51:27] [Server thread/INFO]: [NASAKILL: Gamerule playersSleepingPercentage is now set to: 0]
+[21:53:44] [Server thread/INFO]: NASAKILL issued server command: /gamerule playersSleepingPercentage 100
+[21:53:44] [Server thread/INFO]: [NASAKILL: Gamerule playersSleepingPercentage is now set to: 100]
+[21:54:18] [Server thread/INFO]: NASAKILL issued server command: /time set day
+[21:54:18] [Server thread/INFO]: [NASAKILL: Set the time to 1000]
+[21:54:36] [Server thread/INFO]: NASAKILL has made the advancement [Ol' Betsy]
+[21:59:09] [Server thread/INFO]: NASAKILL issued server command: /gamerule keepInventory true
+[21:59:09] [Server thread/INFO]: [NASAKILL: Gamerule keepInventory is now set to: true]
+[21:59:10] [Async Chat Thread - #5/INFO]: [Not Secure] <.ProGamer43254> hello
+[21:59:14] [Async Chat Thread - #6/INFO]: <NASAKILL> hi
+[21:59:29] [Async Chat Thread - #6/INFO]: <NASAKILL> do / tpa
+[21:59:51] [Async Chat Thread - #6/INFO]: [Not Secure] <.ProGamer43254> umm
+[22:00:05] [Server thread/INFO]: .ProGamer43254 issued server command: /tpa nasakill
+[22:00:10] [Server thread/INFO]: NASAKILL issued server command: /tpaccept
+[22:00:16] [Async Chat Thread - #6/INFO]: <NASAKILL> hi
+[22:02:42] [Async Chat Thread - #7/INFO]: <NASAKILL> let me give you stuff
+[22:02:50] [Server thread/INFO]: .ProGamer43254 has made the advancement [Acquire Hardware]
+[22:02:57] [Async Chat Thread - #7/INFO]: [Not Secure] <.ProGamer43254> ty
+[22:03:33] [Async Chat Thread - #7/INFO]: <NASAKILL> under water
+[22:04:10] [Async Chat Thread - #7/INFO]: <NASAKILL> let me put on obs
+[22:04:20] [Async Chat Thread - #7/INFO]: [Not Secure] <.ProGamer43254> obs?
+[22:04:39] [Async Chat Thread - #7/INFO]: <NASAKILL> recording softweare
+[22:04:42] [Async Chat Thread - #7/INFO]: [Not Secure] <.ProGamer43254> oh
+[22:04:48] [Async Chat Thread - #9/INFO]: [Not Secure] <.ProGamer43254> ur ganna post it?
+[22:05:42] [Server thread/INFO]: NASAKILL fell from a high place
+[22:05:48] [Server thread/INFO]: .ProGamer43254 was slain by Zombie
+[22:05:50] [Server thread/INFO]: NASAKILL issued server command: /tpa .ProGamer43254
+[22:05:58] [Async Chat Thread - #10/INFO]: [Not Secure] <.ProGamer43254> oh
+[22:06:03] [Async Chat Thread - #10/INFO]: [Not Secure] <.ProGamer43254> keepinv on
+[22:06:43] [Async Chat Thread - #11/INFO]: <NASAKILL> tyep
+[22:07:15] [Async Chat Thread - #11/INFO]: [Not Secure] <.ProGamer43254> Re there any server rules
+[22:07:22] [Async Chat Thread - #11/INFO]: <NASAKILL> no cheating
+[22:07:27] [Server thread/INFO]: .ProGamer43254 was shot by Skeleton
+[22:07:33] [Async Chat Thread - #11/INFO]: [Not Secure] <.ProGamer43254> ok
+[22:07:46] [Async Chat Thread - #11/INFO]: [Not Secure] <.ProGamer43254> can i repent
+[22:07:52] [Async Chat Thread - #11/INFO]: <NASAKILL> why?
+[22:08:00] [Async Chat Thread - #11/INFO]: [Not Secure] <.ProGamer43254> i already cheated
+[22:08:06] [Async Chat Thread - #11/INFO]: <NASAKILL> ?
+[22:08:12] [Async Chat Thread - #11/INFO]: <NASAKILL> oh the /op ?
+[22:08:31] [Server thread/INFO]: .ProGamer43254 was shot by NASAKILL
+[22:09:44] [Async Chat Thread - #13/INFO]: [Not Secure] <.ProGamer43254> i had used spectator
+[22:09:47] [Async Chat Thread - #13/INFO]: [Not Secure] <.ProGamer43254> yesterday
+[22:09:50] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for VelocityA (1/12)
+[22:09:52] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> to look around
+[22:09:54] [Server thread/INFO]: .ProGamer43254 was slain by Zombie
+[22:10:19] [Async Chat Thread - #12/INFO]: [Not Secure] <.ProGamer43254> and
+[22:10:31] [Async Chat Thread - #12/INFO]: [Not Secure] <.ProGamer43254> i have a stash of cheeted in items
+[22:10:35] [Server thread/INFO]: .ProGamer43254 was slain by Zombie
+[22:10:55] [Async Chat Thread - #12/INFO]: <NASAKILL> can give my boat back
+[22:11:05] [Async Chat Thread - #12/INFO]: [Not Secure] <.ProGamer43254> there i confessed
+[22:11:20] [Async Chat Thread - #12/INFO]: <NASAKILL> thy punishment is death
+[22:11:30] [Async Chat Thread - #12/INFO]: <NASAKILL> jokeing
+[22:11:36] [Async Chat Thread - #12/INFO]: [Not Secure] <.ProGamer43254> u want to destroy the items?
+[22:11:39] [Async Chat Thread - #14/INFO]: <NASAKILL> ultrakill'
+[22:11:40] [Server thread/INFO]: NASAKILL was slain by Spider
+[22:11:48] [Async Chat Thread - #12/INFO]: <NASAKILL> refrecne
+[22:11:55] [Server thread/INFO]: .ProGamer43254 has made the advancement [Monster Hunter]
+[22:12:04] [Async Chat Thread - #14/INFO]: <NASAKILL> get in
+[22:12:06] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> u want to destroy the stash?
+[22:12:10] [Async Chat Thread - #12/INFO]: <NASAKILL> ?
+[22:12:20] [Async Chat Thread - #12/INFO]: <NASAKILL> what stash?
+[22:12:22] [Async Chat Thread - #12/INFO]: [Not Secure] <.ProGamer43254> read what i confessed ro
+[22:12:24] [Async Chat Thread - #12/INFO]: [Not Secure] <.ProGamer43254> ro
+[22:12:26] [Async Chat Thread - #12/INFO]: [Not Secure] <.ProGamer43254> to
+[22:12:28] [Async Chat Thread - #12/INFO]: [Not Secure] <.ProGamer43254> typo
+[22:12:39] [Async Chat Thread - #14/INFO]: <NASAKILL> sorry i forgo
+[22:12:56] [Server thread/INFO]: .ProGamer43254 was shot by NASAKILL
+[22:13:04] [Async Chat Thread - #12/INFO]: [Not Secure] <.ProGamer43254> i have a stash
+[22:13:08] [Async Chat Thread - #12/INFO]: <NASAKILL> where
+[22:13:10] [Async Chat Thread - #12/INFO]: [Not Secure] <.ProGamer43254> of cheated in otems
+[22:13:12] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> itesm
+[22:13:36] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> let me grab the coords rq
+[22:14:05] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Loltouall
+[22:14:05] [localSession-7-3/INFO]: [Geyser-Spigot] Loltouall (logged in as: Loltouall) has connected to the Java server
+[22:14:05] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Loltouall joined (UUID: 00000000-0000-0000-0009-01f03e401b19)
+[22:14:05] [Server thread/INFO]: .Loltouall joined the game
+[22:14:05] [Server thread/INFO]: .Loltouall[/24.57.60.20:0] logged in with entity id 5352 at ([Nasakills server]-397.91843, -32.0, -3668.9294)
+[22:14:16] [Server thread/INFO]: NASAKILL issued server command: /op .Loltouall
+[22:14:16] [Server thread/INFO]: [NASAKILL: Made .Loltouall a server operator]
+[22:14:28] [Async Chat Thread - #14/INFO]: [Not Secure] <.Loltouall> ima destroy the stash
+[22:14:33] [Server thread/INFO]: NASAKILL issued server command: /tp .Loltouall
+[22:14:33] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to .Loltouall]
+[22:14:36] [Server thread/INFO]: .Loltouall issued server command: /gamemode creative
+[22:14:36] [Server thread/INFO]: [.Loltouall: Set own game mode to Creative Mode]
+[22:14:55] [Async Chat Thread - #14/INFO]: <NASAKILL> nice base
+[22:15:07] [Server thread/INFO]: NASAKILL issued server command: /give NASAKILL minecraft:tnt
+[22:15:07] [Server thread/INFO]: [NASAKILL: Gave 1 [TNT] to NASAKILL]
+[22:15:45] [Server thread/INFO]: NASAKILL has made the advancement [Diamonds!]
+[22:15:47] [Async Chat Thread - #14/INFO]: [Not Secure] <.Loltouall> stash destroyed
+[22:16:05] [Server thread/INFO]: NASAKILL issued server command: /kill .Loltouall
+[22:16:05] [Server thread/INFO]: .Loltouall was killed
+[22:16:05] [Server thread/INFO]: [NASAKILL: Killed .Loltouall]
+[22:16:11] [Server thread/INFO]: NASAKILL issued server command: /kill NASAKILL
+[22:16:11] [Server thread/INFO]: NASAKILL was killed
+[22:16:11] [Server thread/INFO]: [NASAKILL: Killed NASAKILL]
+[22:16:21] [Server thread/INFO]: NASAKILL issued server command: /deop .Loltouall
+[22:16:21] [Server thread/INFO]: [NASAKILL: Made .Loltouall no longer a server operator]
+[22:16:25] [Server thread/INFO]: .Loltouall issued server command: /gamemode survival
+[22:16:28] [Server thread/INFO]: NASAKILL issued server command: /gamemode survival .Loltouall
+[22:16:28] [Server thread/INFO]: [NASAKILL: Set .Loltouall's game mode to Survival Mode]
+[22:16:29] [Async Chat Thread - #14/INFO]: [Not Secure] <.Loltouall> oh
+[22:16:36] [Async Chat Thread - #14/INFO]: [Not Secure] <.Loltouall> u removed my perms
+[22:16:39] [Async Chat Thread - #14/INFO]: <NASAKILL> yep
+[22:16:44] [Async Chat Thread - #14/INFO]: [Not Secure] <.Loltouall> i couldn't go into survival
+[22:16:49] [Async Chat Thread - #14/INFO]: <NASAKILL> lol
+[22:17:05] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for VelocityA (1/12)
+[22:17:06] [Server thread/INFO]: .ProGamer43254 was slain by NASAKILL
+[22:17:06] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for VelocityA (2/12)
+[22:17:24] [Async Chat Thread - #14/INFO]: <NASAKILL> why are you flaged so mcuh
+[22:17:31] [Async Chat Thread - #14/INFO]: [Not Secure] <.Loltouall> huh
+[22:17:36] [Async Chat Thread - #12/INFO]: [Not Secure] <.Loltouall> wdym
+[22:17:55] [Server thread/INFO]: NASAKILL issued server command: /gamerule keepInventory false
+[22:17:55] [Server thread/INFO]: [NASAKILL: Gamerule keepInventory is now set to: false]
+[22:17:56] [Async Chat Thread - #12/INFO]: [Not Secure] <.Loltouall> why am i in adventure mode
+[22:18:00] [Server thread/INFO]: NASAKILL issued server command: /kill .Loltouall
+[22:18:00] [Server thread/INFO]: .Loltouall was killed
+[22:18:00] [Server thread/INFO]: [NASAKILL: Killed .Loltouall]
+[22:18:06] [Async Chat Thread - #14/INFO]: [Not Secure] <.Loltouall> oh
+[22:18:14] [Async Chat Thread - #12/INFO]: [Not Secure] <.Loltouall> forgot i pick stuff up
+[22:18:25] [Async Chat Thread - #12/INFO]: <NASAKILL> dont do that pls
+[22:18:31] [Server thread/INFO]: NASAKILL issued server command: /kill .Loltouall
+[22:18:31] [Server thread/INFO]: .Loltouall was killed
+[22:18:31] [Server thread/INFO]: [NASAKILL: Killed .Loltouall]
+[22:18:37] [Async Chat Thread - #12/INFO]: [Not Secure] <.Loltouall> stop
+[22:18:43] [Async Chat Thread - #14/INFO]: <NASAKILL> dont pick it up
+[22:18:48] [Async Chat Thread - #14/INFO]: [Not Secure] <.Loltouall> listen
+[22:18:49] [Async Chat Thread - #14/INFO]: <NASAKILL> drop it all
+[22:18:54] [Async Chat Thread - #14/INFO]: [Not Secure] <.Loltouall> tp me to
+[22:18:58] [Async Chat Thread - #14/INFO]: [Not Secure] <.Loltouall> the voide
+[22:19:17] [Async Chat Thread - #14/INFO]: <NASAKILL> how
+[22:19:35] [Async Chat Thread - #14/INFO]: [Not Secure] <.Loltouall> do /tp .loltouall 0 -100 0
+[22:20:00] [Server thread/INFO]: NASAKILL issued server command: /tp .Loltouall 0 -100 0
+[22:20:00] [Server thread/INFO]: [NASAKILL: Teleported .Loltouall to 0.500000, -100.000000, 0.500000]
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:00] [Server thread/WARN]: .Loltouall moved too quickly! -1.3194246,-165.0,-2.7537625
+[22:20:05] [Server thread/INFO]: .Loltouall fell out of the world
+[22:20:11] [Async Chat Thread - #15/INFO]: [Not Secure] <.Loltouall> there
+[22:20:17] [Async Chat Thread - #14/INFO]: [Not Secure] <.Loltouall> destroyed
+[22:20:20] [Server thread/INFO]: NASAKILL issued server command: /gamerule keepInventory false
+[22:20:20] [Server thread/INFO]: [NASAKILL: Gamerule keepInventory is now set to: false]
+[22:20:22] [Async Chat Thread - #15/INFO]: [Not Secure] <.Loltouall> sorry for that
+[22:20:29] [Server thread/INFO]: NASAKILL issued server command: /gamerule keepInventory true
+[22:20:29] [Server thread/INFO]: [NASAKILL: Gamerule keepInventory is now set to: true]
+[22:20:35] [Async Chat Thread - #15/INFO]: <NASAKILL> done
+[22:20:41] [Server thread/INFO]: NASAKILL issued server command: /kick .Loltouall
+[22:20:41] [Server thread/INFO]: .Loltouall lost connection: Kicked by an operator
+[22:20:41] [localSession-7-3/INFO]: [Geyser-Spigot] Loltouall has disconnected from the Java server because of Kicked by an operator
+[22:20:41] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Loltouall disconnected
+[22:20:41] [Server thread/INFO]: .Loltouall left the game
+[22:20:41] [Server thread/INFO]: [NASAKILL: Kicked .Loltouall: Kicked by an operator]
+[22:20:48] [Async Chat Thread - #14/INFO]: <NASAKILL> kicked
+[22:20:58] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> ok
+[22:21:01] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> ill admit
+[22:21:18] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> i made that cuz i didnt think this was ganna be the perm server
+[22:21:29] [Async Chat Thread - #14/INFO]: <NASAKILL> ?
+[22:21:37] [Async Chat Thread - #15/INFO]: <NASAKILL> perm what?
+[22:21:43] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> server
+[22:21:50] [Async Chat Thread - #15/INFO]: [Not Secure] <.ProGamer43254> permanent server
+[22:21:54] [Async Chat Thread - #14/INFO]: <NASAKILL> oh
+[22:22:13] [Async Chat Thread - #15/INFO]: <NASAKILL> acutlay make go chop down some trees
+[22:22:31] [Async Chat Thread - #15/INFO]: [Not Secure] <.ProGamer43254> theres a village nearby
+[22:23:19] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> want to go to the village?
+[22:23:23] [Async Chat Thread - #14/INFO]: <NASAKILL> im gonna break the bedrock
+[22:23:25] [Async Chat Thread - #14/INFO]: <NASAKILL> wait
+[22:23:30] [Server thread/INFO]: NASAKILL issued server command: /tp NASAKILL -238.5 86.0 -293.5
+[22:23:30] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to -238.500000, 86.000000, -293.500000]
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (1/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (2/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (3/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (4/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (5/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (6/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (7/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (8/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (9/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (10/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (11/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (12/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (13/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (14/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (15/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (16/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (17/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (18/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (19/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (20/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (21/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (22/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (23/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (1/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (2/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (24/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (25/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (3/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (26/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (27/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (4/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (28/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (29/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (5/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (30/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (31/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (6/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (32/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (33/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (7/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (34/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (35/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (8/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (36/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (37/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (9/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (10/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (11/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (12/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (13/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (14/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (15/40)
+[22:23:33] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (16/40)
+[22:23:50] [Server thread/INFO]: NASAKILL issued server command: /tp .ProGamer43254
+[22:23:50] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to .ProGamer43254]
+[22:24:01] [Server thread/INFO]: NASAKILL issued server command: /time set day
+[22:24:01] [Server thread/INFO]: [NASAKILL: Set the time to 1000]
+[22:24:12] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> want to go to village?
+[22:24:32] [Async Chat Thread - #14/INFO]: <NASAKILL> you need to get some stuff first
+[22:24:46] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> oh also
+[22:24:53] [Async Chat Thread - #15/INFO]: <NASAKILL> dont get birch camman18 will spawn
+[22:24:57] [Async Chat Thread - #15/INFO]: [Not Secure] <.ProGamer43254> i have a second stash
+[22:25:04] [Server thread/INFO]: NASAKILL issued server command: /op .ProGamer43254
+[22:25:04] [Server thread/INFO]: [NASAKILL: Made .ProGamer43254 a server operator]
+[22:25:09] [Async Chat Thread - #14/INFO]: <NASAKILL> tp to ir
+[22:25:13] [Async Chat Thread - #14/INFO]: <NASAKILL> it*
+[22:25:15] [Server thread/INFO]: .ProGamer43254 issued server command: /gamemode creative
+[22:25:15] [Server thread/INFO]: [.ProGamer43254: Set own game mode to Creative Mode]
+[22:25:28] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> its my echest
+[22:26:12] [Async Chat Thread - #14/INFO]: <NASAKILL> realy man
+[22:26:16] [Async Chat Thread - #14/INFO]: <NASAKILL> bruh
+[22:26:28] [Server thread/INFO]: .ProGamer43254 issued server command: /kill @e [type=item]
+[22:26:36] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> k give me a sec
+[22:26:48] [Server thread/INFO]: .ProGamer43254 issued server command: /kill @e[type=item]
+[22:26:48] [Server thread/INFO]: [.ProGamer43254: Killed 85 entities]
+[22:26:57] [Server thread/INFO]: .ProGamer43254 issued server command: /gamemode survival
+[22:26:57] [Server thread/INFO]: [.ProGamer43254: Set own game mode to Survival Mode]
+[22:27:05] [Server thread/INFO]: NASAKILL issued server command: /kill .ProGamer43254
+[22:27:05] [Server thread/INFO]: .ProGamer43254 was killed
+[22:27:05] [Server thread/INFO]: [NASAKILL: Killed .ProGamer43254]
+[22:27:10] [Server thread/INFO]: NASAKILL issued server command: /deop .ProGamer43254
+[22:27:10] [Server thread/INFO]: [NASAKILL: Made .ProGamer43254 no longer a server operator]
+[22:27:14] [Async Chat Thread - #14/INFO]: [Not Secure] <.ProGamer43254> hey
+[22:27:20] [Async Chat Thread - #15/INFO]: <NASAKILL> just checking
+[22:27:22] [Async Chat Thread - #15/INFO]: [Not Secure] <.ProGamer43254> burn that
+[22:27:30] [Server thread/INFO]: NASAKILL went up in flames
+[22:27:35] [Async Chat Thread - #15/INFO]: [Not Secure] <.ProGamer43254> nooooo
+[22:27:49] [Async Chat Thread - #15/INFO]: [Not Secure] <.ProGamer43254> why cant i place stuff
+[22:27:56] [Server thread/INFO]: NASAKILL issued server command: /gamemode survival
+[22:28:03] [Server thread/INFO]: NASAKILL issued server command: /gamemode survival .ProGamer43254
+[22:28:08] [Async Chat Thread - #15/INFO]: [Not Secure] <.ProGamer43254> place it
+[22:28:14] [Server thread/INFO]: NASAKILL issued server command: /gamemode survival .ProGamer43254
+[22:28:26] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 disconnected
+[22:28:26] [localSession-7-2/INFO]: [Geyser-Spigot] ProGamer43254 has disconnected from the Java server because of Bedrock client disconnected
+[22:28:26] [Server thread/INFO]: .ProGamer43254 lost connection: Disconnected
+[22:28:26] [Server thread/INFO]: .ProGamer43254 left the game
+[22:28:31] [Async Chat Thread - #15/INFO]: <NASAKILL> hold up
+[22:28:33] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username ProGamer43254
+[22:28:33] [localSession-7-4/INFO]: [Geyser-Spigot] ProGamer43254 (logged in as: ProGamer43254) has connected to the Java server
+[22:28:33] [localSession-7-4/INFO]: [Geyser-Spigot] ProGamer43254 has disconnected from the Java server because of Tried to log in as a Java Edition player! Is Floodgate set up correctly?
+[22:28:33] [localSession-7-4/WARN]: [Geyser-Spigot] Cannot reply to ClientboundHelloPacket without profile and access token.
+[22:28:33] [Server thread/INFO]: ProGamer43254 (/24.57.60.20:0) lost connection: Disconnected
+[22:28:39] [Async Chat Thread - #15/INFO]: <NASAKILL> i was gonna kick you but nvm
+[22:28:48] [Server thread/INFO]: NASAKILL issued server command: /kick NASAKILL Lag
+[22:28:48] [Server thread/INFO]: NASAKILL lost connection: Lag
+[22:28:48] [Server thread/INFO]: NASAKILL left the game
+[22:28:48] [Server thread/INFO]: [NASAKILL: Kicked NASAKILL: Lag]
+[22:28:50] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username ProGamer43254
+[22:28:50] [localSession-7-1/INFO]: [Geyser-Spigot] ProGamer43254 (logged in as: ProGamer43254) has connected to the Java server
+[22:28:51] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 joined (UUID: 00000000-0000-0000-0009-01ff7a5717b4)
+[22:28:51] [Server thread/INFO]: .ProGamer43254 joined the game
+[22:28:51] [Server thread/INFO]: .ProGamer43254[/24.57.60.20:0] logged in with entity id 16277 at ([Nasakills server]-11.350506, 66.0, 14.83599)
+[22:28:53] [User Authenticator #1/INFO]: UUID of player NASAKILL is a44e35f0-2af3-49fe-a1a4-927c7be319a1
+[22:28:55] [Server thread/INFO]: NASAKILL joined the game
+[22:28:55] [Server thread/INFO]: NASAKILL[/172.56.69.88:41737] logged in with entity id 16283 at ([Nasakills server]-10.821444071253625, 66.0, 11.109869444494397)
+[22:29:43] [Async Chat Thread - #16/INFO]: <NASAKILL> thats an iliegal item
+[22:29:47] [Async Chat Thread - #16/INFO]: <NASAKILL> the tnt
+[22:29:51] [Async Chat Thread - #15/INFO]: [Not Secure] <.ProGamer43254> its in the water
+[22:30:02] [Async Chat Thread - #15/INFO]: [Not Secure] <.ProGamer43254> ignite
+[22:30:05] [Server thread/INFO]: .ProGamer43254 was blown up by NASAKILL
+[22:30:47] [Server thread/INFO]: NASAKILL issued server command: /give NASAKILL minecraft:acacia_hanging_sign
+[22:30:47] [Server thread/INFO]: [NASAKILL: Gave 1 [Acacia Hanging Sign] to NASAKILL]
+[22:31:38] [Async Chat Thread - #17/INFO]: [Not Secure] <.ProGamer43254> so can i hack
+[22:31:42] [Async Chat Thread - #17/INFO]: <NASAKILL> nope
+[22:31:51] [Async Chat Thread - #17/INFO]: [Not Secure] <.ProGamer43254> i cant even use a hack client
+[22:31:54] [Async Chat Thread - #17/INFO]: <NASAKILL> nope
+[22:31:59] [Async Chat Thread - #17/INFO]: <NASAKILL> anti chat is on
+[22:32:03] [Async Chat Thread - #18/INFO]: <NASAKILL> cheat is on
+[22:32:05] [Async Chat Thread - #18/INFO]: [Not Secure] <.ProGamer43254> no i mean
+[22:32:09] [Async Chat Thread - #18/INFO]: [Not Secure] <.ProGamer43254> im on bedrock
+[22:32:15] [Async Chat Thread - #17/INFO]: [Not Secure] <.ProGamer43254> i cant use hack clients
+[22:32:34] [Async Chat Thread - #17/INFO]: <NASAKILL> greifing gonna go crazy
+[22:33:07] [Async Chat Thread - #17/INFO]: [Not Secure] <.ProGamer43254> why cqnt i edit
+[22:33:14] [Async Chat Thread - #18/INFO]: [Not Secure] <.ProGamer43254> i need ro add a rule
+[22:33:19] [Async Chat Thread - #18/INFO]: <NASAKILL> what?
+[22:33:21] [Async Chat Thread - #18/INFO]: [Not Secure] <.ProGamer43254> no greifing
+[22:33:50] [Async Chat Thread - #18/INFO]: <NASAKILL> dosen't fit
+[22:33:58] [Server thread/INFO]: NASAKILL issued server command: /time set day
+[22:33:58] [Server thread/INFO]: [NASAKILL: Set the time to 1000]
+[22:34:12] [Async Chat Thread - #18/INFO]: <NASAKILL> time to start moveing
+[22:34:14] [Async Chat Thread - #17/INFO]: [Not Secure] <.ProGamer43254> why do i keep going into adventur mode
+[22:34:21] [Server thread/INFO]: NASAKILL issued server command: /gamemode survival .ProGamer43254
+[22:34:26] [Server thread/INFO]: NASAKILL issued server command: /gamemode adventure
+[22:34:26] [Server thread/INFO]: [NASAKILL: Set own game mode to Adventure Mode]
+[22:34:33] [Server thread/INFO]: NASAKILL issued server command: /gamemode survival .ProGamer43254
+[22:34:43] [Server thread/INFO]: NASAKILL issued server command: /gamemode survival
+[22:34:43] [Server thread/INFO]: [NASAKILL: Set own game mode to Survival Mode]
+[22:34:55] [Server thread/INFO]: NASAKILL issued server command: /gamemode survival .ProGamer43254
+[22:35:18] [Server thread/INFO]: .ProGamer43254 was slain by NASAKILL
+[22:35:30] [Server thread/INFO]: .ProGamer43254 was slain by NASAKILL
+[22:35:53] [Server thread/INFO]: NASAKILL was slain by .ProGamer43254
+[22:36:36] [Async Chat Thread - #19/INFO]: [Not Secure] <.ProGamer43254> lets go
+[22:36:57] [Async Chat Thread - #19/INFO]: <NASAKILL> vilage is other way
+[22:38:17] [Server thread/INFO]: NASAKILL issued server command: /tpa .ProGamer43254
+[22:38:23] [Server thread/INFO]: .ProGamer43254 issued server command: /tpaccept
+[22:38:36] [Async Chat Thread - #21/INFO]: <NASAKILL> i looted that
+[22:38:42] [Async Chat Thread - #22/INFO]: [Not Secure] <.ProGamer43254> i know
+[22:38:42] [Async Chat Thread - #22/INFO]: <NASAKILL> a while back
+[22:38:50] [Async Chat Thread - #22/INFO]: [Not Secure] <.ProGamer43254> i was here in creative yesterday
+[22:39:44] [Server thread/WARN]: .ProGamer43254 moved wrongly!
+[22:39:54] [Async Chat Thread - #23/INFO]: <NASAKILL> sorry afk
+[22:40:01] [Server thread/INFO]: NASAKILL issued server command: /tpa .ProGamer43254
+[22:40:04] [Server thread/INFO]: NASAKILL issued server command: /tp .ProGamer43254
+[22:40:04] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to .ProGamer43254]
+[22:40:04] [Server thread/WARN]: NASAKILL moved too quickly! 110.52074731416718,25.0,-89.12755676150944
+[22:40:05] [Server thread/INFO]: .ProGamer43254 issued server command: /tpaccept
+[22:40:31] [Server thread/INFO]: .ProGamer43254 fell from a high place
+[22:40:36] [Server thread/INFO]: NASAKILL was doomed to fall by Iron Golem
+[22:40:40] [Server thread/INFO]: .ProGamer43254 issued server command: /tpa nasakill
+[22:40:46] [Server thread/INFO]: NASAKILL issued server command: /tpadeny
+[22:40:48] [Async Chat Thread - #23/INFO]: <NASAKILL> lol
+[22:41:50] [Async Chat Thread - #25/INFO]: <NASAKILL> iorn in revine
+[22:42:09] [Async Chat Thread - #25/INFO]: <NASAKILL> base??
+[22:42:26] [Async Chat Thread - #26/INFO]: <NASAKILL> we need zone protect mod thow
+[22:42:36] [Async Chat Thread - #26/INFO]: [Not Secure] <.ProGamer43254> ok
+[22:42:54] [Async Chat Thread - #26/INFO]: <NASAKILL> ill instal later
+[22:43:09] [Async Chat Thread - #26/INFO]: <NASAKILL> looted already
+[22:43:16] [Async Chat Thread - #26/INFO]: [Not Secure] <.ProGamer43254> i loot3d it
+[22:44:03] [Async Chat Thread - #26/INFO]: <NASAKILL> beds pls
+[22:44:05] [Server thread/INFO]: NASAKILL has made the advancement [Sweet Dreams]
+[22:44:05] [Server thread/INFO]: .ProGamer43254 has made the advancement [Sweet Dreams]
+[22:44:39] [Async Chat Thread - #26/INFO]: [Not Secure] <.ProGamer43254> bing it here
+[22:45:05] [Async Chat Thread - #26/INFO]: <NASAKILL> no iorn...
+[22:45:14] [Async Chat Thread - #25/INFO]: [Not Secure] <.ProGamer43254> u picked it up
+[22:45:16] [Async Chat Thread - #25/INFO]: [Not Secure] <.ProGamer43254> i saw
+[22:45:36] [Async Chat Thread - #26/INFO]: <NASAKILL> big cave here
+[22:45:41] [Async Chat Thread - #26/INFO]: [Not Secure] <.ProGamer43254> k
+[22:45:46] [Async Chat Thread - #26/INFO]: [Not Secure] <.ProGamer43254> ima grab wood
+[22:46:27] [Server thread/INFO]: .ProGamer43254 has made the advancement [Suit Up]
+[22:46:35] [Server thread/INFO]: .ProGamer43254 has made the advancement [Isn't It Iron Pick]
+[22:46:56] [Server thread/INFO]: .ProGamer43254 issued server command: /tpa nasakill
+[22:47:02] [Server thread/INFO]: NASAKILL issued server command: /tpaccept
+[22:47:21] [Async Chat Thread - #27/INFO]: [Not Secure] <.ProGamer43254> wtare
+[22:47:23] [Async Chat Thread - #27/INFO]: [Not Secure] <.ProGamer43254> water
+[22:47:25] [Server thread/INFO]: .ProGamer43254 has made the advancement [Stone Age]
+[22:48:24] [Async Chat Thread - #30/INFO]: <NASAKILL> lots of iorn here with little dimonds
+[22:48:45] [Async Chat Thread - #30/INFO]: [Not Secure] <.ProGamer43254> how do u know
+[22:48:56] [Async Chat Thread - #30/INFO]: <NASAKILL> i used my eyes
+[22:49:07] [Async Chat Thread - #29/INFO]: [Not Secure] <.ProGamer43254> u have fullbright dont u
+[22:49:12] [Async Chat Thread - #29/INFO]: <NASAKILL> yep
+[22:49:31] [Async Chat Thread - #29/INFO]: [Not Secure] <.ProGamer43254> cant get that on bedrock sadly
+[22:49:38] [Async Chat Thread - #29/INFO]: <NASAKILL> yeah
+[22:49:53] [Async Chat Thread - #29/INFO]: [Not Secure] <.ProGamer43254> it makes xray useless without night_vision
+[22:50:12] [Async Chat Thread - #29/INFO]: <NASAKILL> you need golden chest plate?
+[22:50:19] [Async Chat Thread - #29/INFO]: [Not Secure] <.ProGamer43254> i have an iron one
+[22:50:23] [Async Chat Thread - #29/INFO]: <NASAKILL> im droping it down
+[22:50:24] [Async Chat Thread - #29/INFO]: [Not Secure] <.ProGamer43254> can i use xray?
+[22:51:38] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (1/40)
+[22:51:38] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (2/40)
+[22:51:38] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (3/40)
+[22:51:38] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (4/40)
+[22:51:38] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (5/40)
+[22:51:38] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (6/40)
+[22:51:38] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (7/40)
+[22:51:38] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (8/40)
+[22:51:38] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (9/40)
+[22:51:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (10/40)
+[22:51:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (11/40)
+[22:51:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (12/40)
+[22:51:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (13/40)
+[22:51:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (14/40)
+[22:51:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (15/40)
+[22:51:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (16/40)
+[22:51:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (17/40)
+[22:51:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (18/40)
+[22:51:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (19/40)
+[22:51:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (20/40)
+[22:51:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (21/40)
+[22:51:44] [Async Chat Thread - #32/INFO]: <NASAKILL> lol
+[22:51:59] [Async Chat Thread - #32/INFO]: <NASAKILL> this thing is crashing out on literly nothing
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (22/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (23/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (24/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (25/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (26/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (27/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (28/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (29/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (30/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (31/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (32/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (33/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (34/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (35/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (36/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (37/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (38/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (39/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (40/40)
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was punished for FlightC
+[22:52:09] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (1/40)
+[22:52:10] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (2/40)
+[22:52:10] [Server thread/INFO]: .ProGamer43254 lost connection: FlightC
+[22:52:10] [localSession-7-1/INFO]: [Geyser-Spigot] ProGamer43254 has disconnected from the Java server because of FlightC
+[22:52:10] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 disconnected
+[22:52:10] [Server thread/INFO]: .ProGamer43254 left the game
+[22:52:10] [Server thread/INFO]: Kicked .ProGamer43254: FlightC
+[22:52:21] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ProGamer43254
+[22:52:21] [localSession-7-2/INFO]: [Geyser-Spigot] ProGamer43254 (logged in as: ProGamer43254) has connected to the Java server
+[22:52:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 joined (UUID: 00000000-0000-0000-0009-01ff7a5717b4)
+[22:52:21] [Server thread/INFO]: .ProGamer43254 joined the game
+[22:52:21] [Server thread/INFO]: .ProGamer43254[/24.57.60.20:0] logged in with entity id 20510 at ([Nasakills server]336.66614, 6.921600475311279, -179.02513)
+[22:52:26] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (3/40)
+[22:52:26] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (4/40)
+[22:52:27] [Async Chat Thread - #31/INFO]: <NASAKILL> sorry bout that
+[22:52:34] [Async Chat Thread - #32/INFO]: [Not Secure] <.ProGamer43254> i got kicked for flightc
+[22:52:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (5/40)
+[22:52:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (6/40)
+[22:52:39] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (7/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (8/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (9/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (10/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (11/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (12/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (13/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (14/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (15/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (1/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (2/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (16/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (17/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (3/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (18/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (19/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (4/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (5/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (20/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (21/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (22/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (23/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (6/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (24/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (25/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (7/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (26/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (27/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (8/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (28/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (29/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (9/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (30/40)
+[22:52:40] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (31/40)
+[22:52:44] [Async Chat Thread - #32/INFO]: <NASAKILL> how
+[22:52:52] [Async Chat Thread - #32/INFO]: [Not Secure] <.ProGamer43254> idk
+[22:52:55] [Async Chat Thread - #32/INFO]: <NASAKILL> it spasing out
+[22:53:30] [Server thread/INFO]: .ProGamer43254 was impaled on a stalagmite
+[22:53:39] [Server thread/INFO]: .ProGamer43254 issued server command: /tpa nasakill
+[22:53:42] [Server thread/INFO]: NASAKILL issued server command: /tpaccept
+[22:53:48] [Async Chat Thread - #32/INFO]: [Not Secure] <.ProGamer43254> thats how you reset health
+[22:54:20] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (32/40)
+[22:54:20] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (33/40)
+[22:54:20] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (34/40)
+[22:54:30] [Server thread/INFO]: NASAKILL issued server command: /light reload
+[22:54:36] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for CriticalsA (1/1)
+[22:54:36] [Server thread/INFO]: (Light) .ProGamer43254 was punished for CriticalsA
+[22:54:36] [Server thread/INFO]: .ProGamer43254 lost connection: CriticalsA
+[22:54:36] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 disconnected
+[22:54:36] [localSession-7-2/INFO]: [Geyser-Spigot] ProGamer43254 has disconnected from the Java server because of CriticalsA
+[22:54:36] [Server thread/INFO]: .ProGamer43254 left the game
+[22:54:36] [Server thread/INFO]: Kicked .ProGamer43254: CriticalsA
+[22:54:46] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username ProGamer43254
+[22:54:46] [localSession-7-3/INFO]: [Geyser-Spigot] ProGamer43254 (logged in as: ProGamer43254) has connected to the Java server
+[22:54:46] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 joined (UUID: 00000000-0000-0000-0009-01ff7a5717b4)
+[22:54:46] [Server thread/INFO]: .ProGamer43254 joined the game
+[22:54:46] [Server thread/INFO]: .ProGamer43254[/24.57.60.20:0] logged in with entity id 20888 at ([Nasakills server]266.69999, 5.0, -127.30001)
+[22:54:53] [Async Chat Thread - #33/INFO]: <NASAKILL> bruh
+[22:55:03] [Server thread/INFO]: NASAKILL issued server command: /difficulty peaceful
+[22:55:03] [Server thread/INFO]: [NASAKILL: The difficulty has been set to Peaceful]
+[22:55:03] [Async Chat Thread - #33/INFO]: [Not Secure] <.ProGamer43254> i got kicked for criticalsa
+[22:55:11] [Async Chat Thread - #33/INFO]: <NASAKILL> what that for
+[22:55:12] [Async Chat Thread - #34/INFO]: [Not Secure] <.ProGamer43254> A
+[22:55:19] [Async Chat Thread - #33/INFO]: [Not Secure] <.ProGamer43254> idk
+[22:55:29] [Server thread/INFO]: NASAKILL issued server command: /light alerts
+[22:56:01] [Async Chat Thread - #33/INFO]: <NASAKILL> dimonds
+[22:56:09] [Async Chat Thread - #34/INFO]: [Not Secure] <.ProGamer43254> i call dibs
+[22:56:15] [Async Chat Thread - #33/INFO]: <NASAKILL> try to spa
+[22:56:25] [Server thread/INFO]: .ProGamer43254 has made the advancement [Diamonds!]
+[22:57:17] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (1/40)
+[22:57:17] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (2/40)
+[22:57:17] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (3/40)
+[22:57:18] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightA (4/40)
+[22:57:27] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 disconnected
+[22:57:27] [localSession-7-3/INFO]: [Geyser-Spigot] ProGamer43254 has disconnected from the Java server because of Bedrock client disconnected
+[22:57:27] [Server thread/INFO]: .ProGamer43254 lost connection: Disconnected
+[22:57:28] [Server thread/INFO]: .ProGamer43254 left the game
+[22:57:34] [Async Chat Thread - #36/INFO]: <NASAKILL> odd
+[22:57:45] [Server thread/INFO]: NASAKILL issued server command: /light checks
+[22:57:54] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username ProGamer43254
+[22:57:54] [localSession-7-4/INFO]: [Geyser-Spigot] ProGamer43254 (logged in as: ProGamer43254) has connected to the Java server
+[22:57:54] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 joined (UUID: 00000000-0000-0000-0009-01ff7a5717b4)
+[22:57:54] [Server thread/INFO]: .ProGamer43254 joined the game
+[22:57:54] [Server thread/INFO]: .ProGamer43254[/24.57.60.20:0] logged in with entity id 21033 at ([Nasakills server]190.33087, 9.0, -123.36712)
+[22:58:00] [Async Chat Thread - #36/INFO]: <NASAKILL> what was that for
+[22:58:05] [Async Chat Thread - #36/INFO]: <NASAKILL> light?
+[22:58:09] [Async Chat Thread - #36/INFO]: [Not Secure] <.ProGamer43254> oh that time i just left
+[22:58:13] [Async Chat Thread - #35/INFO]: <NASAKILL> oh
+[22:58:21] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (1/40)
+[22:58:21] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (2/40)
+[22:58:21] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (3/40)
+[22:58:21] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (4/40)
+[22:58:21] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (5/40)
+[22:58:21] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (6/40)
+[22:58:21] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (7/40)
+[22:58:21] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (8/40)
+[22:58:21] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (9/40)
+[22:58:21] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (10/40)
+[22:58:21] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (12/40)
+[22:58:21] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (13/40)
+[22:58:22] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (16/40)
+[22:58:22] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (17/40)
+[22:58:22] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (18/40)
+[22:58:22] [Server thread/INFO]: (Light) .ProGamer43254 was flagged for FlightC (19/40)
+[22:58:31] [Async Chat Thread - #36/INFO]: <NASAKILL> im gonna go back to base
+[22:58:40] [Async Chat Thread - #36/INFO]: [Not Secure] <.ProGamer43254> we have a base?
+[22:58:46] [Async Chat Thread - #36/INFO]: <NASAKILL> nrlly
+[22:58:53] [Async Chat Thread - #36/INFO]: <NASAKILL> not realyw
+[22:59:08] [Async Chat Thread - #35/INFO]: [Not Secure] <.ProGamer43254> we have that one i used for a stash
+[22:59:18] [Async Chat Thread - #37/INFO]: [Not Secure] <.ProGamer43254> it was actually hidden well
+[22:59:27] [Async Chat Thread - #37/INFO]: [Not Secure] <.ProGamer43254> u saw the entrance right
+[22:59:33] [Async Chat Thread - #37/INFO]: <NASAKILL> no?
+[23:01:03] [Async Chat Thread - #39/INFO]: <NASAKILL> I lost the base
+[23:01:12] [Async Chat Thread - #39/INFO]: [Not Secure] <.ProGamer43254> what one
+[23:02:54] [Server thread/INFO]: .ProGamer43254 issued server command: /tpa nasakill
+[23:03:00] [Server thread/INFO]: NASAKILL issued server command: /tpaccept
+[23:03:22] [Server thread/INFO]: NASAKILL fell from a high place
+[23:03:31] [Server thread/INFO]: NASAKILL issued server command: /tpa .ProGamer43254
+[23:03:36] [Server thread/INFO]: NASAKILL issued server command: /tp .ProGamer43254
+[23:03:36] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to .ProGamer43254]
+[23:03:36] [Server thread/WARN]: NASAKILL moved too quickly! -87.0307735667518,-54.87841,19.661952966090382
+[23:03:43] [Server thread/INFO]: .ProGamer43254 issued server command: /tpaccept
+[23:04:50] [Async Chat Thread - #40/INFO]: [Not Secure] <.ProGamer43254> diamond
+[23:05:54] [Async Chat Thread - #42/INFO]: [Not Secure] <.ProGamer43254> brb
+[23:05:57] [localSession-7-4/INFO]: [Geyser-Spigot] ProGamer43254 has disconnected from the Java server because of Bedrock client disconnected
+[23:05:57] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 disconnected
+[23:05:57] [Server thread/INFO]: .ProGamer43254 lost connection: Disconnected
+[23:05:57] [Server thread/INFO]: .ProGamer43254 left the game
+[23:10:08] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username ProGamer43254
+[23:10:08] [localSession-7-1/INFO]: [Geyser-Spigot] ProGamer43254 (logged in as: ProGamer43254) has connected to the Java server
+[23:10:09] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 joined (UUID: 00000000-0000-0000-0009-01ff7a5717b4)
+[23:10:09] [Server thread/INFO]: .ProGamer43254 joined the game
+[23:10:09] [Server thread/INFO]: .ProGamer43254[/24.57.60.20:0] logged in with entity id 21989 at ([Nasakills server]242.69999, 10.0, -210.69999)
+[23:10:11] [Async Chat Thread - #44/INFO]: <NASAKILL> hi
+[23:10:21] [Async Chat Thread - #44/INFO]: [Not Secure] <.ProGamer43254> hey
+[23:10:35] [Async Chat Thread - #44/INFO]: <NASAKILL> tpa to me
+[23:10:45] [Server thread/INFO]: .ProGamer43254 issued server command: /tpa nasakill
+[23:10:52] [Server thread/INFO]: NASAKILL issued server command: /tpaccept
+[23:11:05] [Async Chat Thread - #44/INFO]: [Not Secure] <.ProGamer43254> this looks weird
+[23:11:09] [Async Chat Thread - #45/INFO]: <NASAKILL> ?
+[23:11:15] [Async Chat Thread - #45/INFO]: [Not Secure] <.ProGamer43254> i just got a full bright mod
+[23:11:20] [Async Chat Thread - #45/INFO]: [Not Secure] <.ProGamer43254> it konda works
+[23:11:31] [Async Chat Thread - #45/INFO]: [Not Secure] <.ProGamer43254> but its very foggy
+[23:11:32] [Async Chat Thread - #45/INFO]: <NASAKILL> wa kond
+[23:11:34] [Async Chat Thread - #45/INFO]: <NASAKILL> a
+[23:11:38] [Async Chat Thread - #45/INFO]: [Not Secure] <.ProGamer43254> kinda
+[23:12:44] [Server thread/INFO]: NASAKILL issued server command: /deop Proishnoob7910
+[23:13:10] [Async Chat Thread - #46/INFO]: [Not Secure] <.ProGamer43254> u have an iron pick
+[23:13:23] [Async Chat Thread - #46/INFO]: <NASAKILL> i do but
+[23:13:29] [Async Chat Thread - #46/INFO]: <NASAKILL> i have a lot of iorn
+[23:13:37] [Async Chat Thread - #46/INFO]: [Not Secure] <.ProGamer43254> can i have iron
+[23:13:40] [Async Chat Thread - #46/INFO]: <NASAKILL> go set up a couple furneses
+[23:14:00] [Async Chat Thread - #47/INFO]: <NASAKILL> it's raw iorn
+[23:14:11] [Async Chat Thread - #47/INFO]: [Not Secure] <.ProGamer43254> its fine
+[23:14:16] [Async Chat Thread - #47/INFO]: [Not Secure] <.ProGamer43254> ill smelt mine
+[23:14:28] [Async Chat Thread - #47/INFO]: <NASAKILL> tpa to me
+[23:14:44] [Async Chat Thread - #47/INFO]: [Not Secure] <.ProGamer43254> its fine
+[23:14:59] [Async Chat Thread - #46/INFO]: [Not Secure] <.ProGamer43254> im smelting rn
+[23:15:26] [Server thread/INFO]: NASAKILL has made the advancement [Cover Me with Diamonds]
+[23:15:41] [Async Chat Thread - #46/INFO]: [Not Secure] <.ProGamer43254> 2 can play at that game
+[23:15:45] [Server thread/INFO]: .ProGamer43254 has made the advancement [Cover Me with Diamonds]
+[23:15:53] [Async Chat Thread - #46/INFO]: <NASAKILL> lol
+[23:16:15] [Async Chat Thread - #46/INFO]: <NASAKILL> what to do with the rest of my iorn armor
+[23:16:27] [Async Chat Thread - #46/INFO]: [Not Secure] <.ProGamer43254> give it to me
+[23:16:33] [Async Chat Thread - #46/INFO]: <NASAKILL> tpa
+[23:16:39] [Async Chat Thread - #46/INFO]: [Not Secure] <.ProGamer43254> im kidding
+[23:17:22] [Async Chat Thread - #47/INFO]: <NASAKILL> lots of dimonds
+[23:17:51] [Async Chat Thread - #46/INFO]: [Not Secure] <.ProGamer43254> what does ur anti cheat do
+[23:18:02] [Async Chat Thread - #47/INFO]: <NASAKILL> pervent hacking ?
+[23:18:05] [Async Chat Thread - #47/INFO]: <NASAKILL> idk
+[23:18:25] [Async Chat Thread - #47/INFO]: [Not Secure] <.ProGamer43254> is it one of those xray alert ones?
+[23:18:36] [Async Chat Thread - #47/INFO]: [Not Secure] <.ProGamer43254> cuz that be cool
+[23:18:43] [Async Chat Thread - #47/INFO]: <NASAKILL> how do i disable pvp
+[23:18:56] [Async Chat Thread - #47/INFO]: [Not Secure] <.ProGamer43254> should i tell him
+[23:19:02] [Async Chat Thread - #46/INFO]: [Not Secure] <.ProGamer43254> its /gamerule
+[23:19:03] [Async Chat Thread - #47/INFO]: <NASAKILL> 64 stacks of raw iorn
+[23:19:10] [Async Chat Thread - #46/INFO]: [Not Secure] <.ProGamer43254> pvp or something
+[23:20:30] [Async Chat Thread - #48/INFO]: <NASAKILL> nop
+[23:22:40] [Server thread/INFO]: .ProGamer43254 issued server command: /tpa nasakill
+[23:22:50] [Server thread/INFO]: NASAKILL issued server command: /tpadeny .ProGamer43254
+[23:22:58] [Async Chat Thread - #50/INFO]: <NASAKILL> the seconded that
+[23:23:11] [Async Chat Thread - #50/INFO]: [Not Secure] <.ProGamer43254> huh
+[23:23:17] [Async Chat Thread - #50/INFO]: <NASAKILL> any of us enter the nether gamemode is set to normal
+[23:23:19] [Async Chat Thread - #50/INFO]: [Not Secure] <.ProGamer43254> why u deny
+[23:23:27] [Async Chat Thread - #51/INFO]: <NASAKILL> and i will chase you down
+[23:23:36] [Async Chat Thread - #50/INFO]: [Not Secure] <.ProGamer43254> what
+[23:23:43] [Async Chat Thread - #50/INFO]: [Not Secure] <.ProGamer43254> ur confusing me
+[23:23:56] [Async Chat Thread - #50/INFO]: <NASAKILL> I can't just let you reach the end
+[23:24:04] [Async Chat Thread - #50/INFO]: <NASAKILL> whould be boring vid
+[23:24:16] [Async Chat Thread - #50/INFO]: [Not Secure] <.ProGamer43254> so u are ganna post it?
+[23:24:22] [Async Chat Thread - #51/INFO]: <NASAKILL> yep?
+[23:24:28] [Async Chat Thread - #51/INFO]: <NASAKILL> are you okay with that?
+[23:24:31] [Async Chat Thread - #51/INFO]: [Not Secure] <.ProGamer43254> ye
+[23:24:35] [Async Chat Thread - #51/INFO]: [Not Secure] <.ProGamer43254> on YouTube?
+[23:24:44] [Async Chat Thread - #50/INFO]: <NASAKILL> that should have been the first qestion
+[23:24:49] [Async Chat Thread - #51/INFO]: <NASAKILL> yes on youtube
+[23:24:59] [Async Chat Thread - #51/INFO]: [Not Secure] <.ProGamer43254> k send me ur youtube later
+[23:25:16] [Async Chat Thread - #50/INFO]: <NASAKILL> it's on my discord account discrition
+[23:25:53] [Async Chat Thread - #51/INFO]: [Not Secure] <.ProGamer43254> no it isnt
+[23:26:05] [Async Chat Thread - #51/INFO]: <NASAKILL> scroll down a lttile more
+[23:26:10] [Async Chat Thread - #50/INFO]: [Not Secure] <.ProGamer43254> i did
+[23:26:16] [Async Chat Thread - #50/INFO]: [Not Secure] <.ProGamer43254> its not in the m3dia links
+[23:26:49] [Server thread/INFO]: NASAKILL has made the advancement [Ice Bucket Challenge]
+[23:28:21] [Async Chat Thread - #52/INFO]: [Not Secure] <.ProGamer43254> k i subed
+[23:28:26] [Async Chat Thread - #52/INFO]: <NASAKILL> thanks
+[23:28:40] [Async Chat Thread - #52/INFO]: [Not Secure] <.ProGamer43254> so is this a manhunt now?
+[23:28:44] [Async Chat Thread - #52/INFO]: <NASAKILL> yep
+[23:28:53] [Async Chat Thread - #52/INFO]: [Not Secure] <.ProGamer43254> so whos the speedrunner
+[23:28:57] [Async Chat Thread - #52/INFO]: <NASAKILL> you
+[23:29:02] [Async Chat Thread - #52/INFO]: <NASAKILL> but we are both slow
+[23:29:04] [Async Chat Thread - #52/INFO]: <NASAKILL> af
+[23:29:24] [Server thread/INFO]: NASAKILL issued server command: /gamerule keepInventory
+[23:29:36] [Server thread/INFO]: NASAKILL issued server command: /gamerule keepInventory false
+[23:29:36] [Server thread/INFO]: [NASAKILL: Gamerule keepInventory is now set to: false]
+[23:29:38] [Async Chat Thread - #53/INFO]: [Not Secure] <.ProGamer43254> i need to confess
+[23:29:47] [Async Chat Thread - #53/INFO]: [Not Secure] <.ProGamer43254> ive never speedrun the game before
+[23:29:50] [Async Chat Thread - #53/INFO]: <NASAKILL> be on your toes
+[23:30:16] [Server thread/INFO]: NASAKILL issued server command: /give .ProGamer43254 minecraft:ender_eye 5
+[23:30:16] [Server thread/INFO]: [NASAKILL: Gave 5 [Eye of Ender] to .ProGamer43254]
+[23:30:53] [Async Chat Thread - #54/INFO]: [Not Secure] <.ProGamer43254> keep inv on?
+[23:31:12] [Async Chat Thread - #54/INFO]: <NASAKILL> fine untill one of us is in the nether
+[23:31:17] [Async Chat Thread - #54/INFO]: [Not Secure] <.ProGamer43254> ty
+[23:31:23] [Server thread/INFO]: NASAKILL issued server command: /gamerule keepInventory true
+[23:31:23] [Server thread/INFO]: [NASAKILL: Gamerule keepInventory is now set to: true]
+[23:33:48] [Server thread/INFO]: NASAKILL has made the advancement [We Need to Go Deeper]
+[23:33:59] [Async Chat Thread - #57/INFO]: [Not Secure] <.ProGamer43254> i was so close
+[23:34:08] [Async Chat Thread - #56/INFO]: <NASAKILL> to the end place?
+[23:34:13] [Async Chat Thread - #56/INFO]: [Not Secure] <.ProGamer43254> no
+[23:34:15] [Async Chat Thread - #56/INFO]: [Not Secure] <.ProGamer43254> nether
+[23:34:25] [Async Chat Thread - #56/INFO]: [Not Secure] <.ProGamer43254> u beat me
+[23:34:35] [localSession-7-1/INFO]: [Geyser-Spigot] ProGamer43254 has disconnected from the Java server because of Bedrock client disconnected
+[23:34:35] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 disconnected
+[23:34:35] [Server thread/INFO]: .ProGamer43254 lost connection: Disconnected
+[23:34:35] [Server thread/INFO]: .ProGamer43254 left the game
+[23:34:37] [Async Chat Thread - #57/INFO]: <NASAKILL> all ready found fortress
+[23:34:53] [Server thread/INFO]: NASAKILL has made the advancement [A Terrible Fortress]
+[23:34:59] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ProGamer43254
+[23:34:59] [localSession-7-2/INFO]: [Geyser-Spigot] ProGamer43254 (logged in as: ProGamer43254) has connected to the Java server
+[23:35:00] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 joined (UUID: 00000000-0000-0000-0009-01ff7a5717b4)
+[23:35:00] [Server thread/INFO]: .ProGamer43254 joined the game
+[23:35:00] [Server thread/INFO]: .ProGamer43254[/24.57.60.20:0] logged in with entity id 24075 at ([Nasakills server]19.415241, -59.0, 95.359375)
+[23:35:08] [Async Chat Thread - #57/INFO]: <NASAKILL> found fortress
+[23:35:12] [Async Chat Thread - #57/INFO]: [Not Secure] <.ProGamer43254> nooo
+[23:35:13] [Async Chat Thread - #57/INFO]: <NASAKILL> ill give head start
+[23:35:21] [Server thread/INFO]: NASAKILL issued server command: /tp .ProGamer43254 NASAKILL
+[23:35:21] [Server thread/INFO]: .ProGamer43254 has made the advancement [We Need to Go Deeper]
+[23:35:21] [Server thread/INFO]: [NASAKILL: Teleported .ProGamer43254 to NASAKILL]
+[23:35:21] [Server thread/INFO]: .ProGamer43254 has made the advancement [A Terrible Fortress]
+[23:35:24] [Async Chat Thread - #56/INFO]: <NASAKILL> go
+[23:35:32] [Server thread/INFO]: NASAKILL issued server command: /difficulty normal
+[23:35:34] [Async Chat Thread - #57/INFO]: [Not Secure] <.ProGamer43254> really
+[23:35:52] [Async Chat Thread - #57/INFO]: <NASAKILL> don;t need it
+[23:36:26] [Async Chat Thread - #57/INFO]: <NASAKILL> your waisting your time
+[23:36:32] [Async Chat Thread - #57/INFO]: <NASAKILL> run!!!
+[23:36:42] [Async Chat Thread - #57/INFO]: <NASAKILL> 3,
+[23:36:44] [Async Chat Thread - #57/INFO]: <NASAKILL> 2,
+[23:36:47] [Async Chat Thread - #57/INFO]: <NASAKILL> 1,
+[23:39:15] [Async Chat Thread - #58/INFO]: [Not Secure] <.ProGamer43254> out of spectator
+[23:41:02] [Async Chat Thread - #60/INFO]: [Not Secure] <.ProGamer43254> i want to check
+[23:41:14] [Async Chat Thread - #61/INFO]: <NASAKILL> ?
+[23:41:14] [Async Chat Thread - #60/INFO]: [Not Secure] <.ProGamer43254> my skin was loading in right
+[23:43:05] [Async Chat Thread - #62/INFO]: <NASAKILL> bro what are you doing?
+[23:44:35] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 disconnected
+[23:44:35] [localSession-7-2/INFO]: [Geyser-Spigot] ProGamer43254 has disconnected from the Java server because of Bedrock client disconnected
+[23:44:35] [Server thread/INFO]: .ProGamer43254 lost connection: Disconnected
+[23:44:35] [Server thread/INFO]: .ProGamer43254 left the game
+[23:44:58] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username ProGamer43254
+[23:44:58] [localSession-7-3/INFO]: [Geyser-Spigot] ProGamer43254 (logged in as: ProGamer43254) has connected to the Java server
+[23:44:58] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 joined (UUID: 00000000-0000-0000-0009-01ff7a5717b4)
+[23:44:58] [Server thread/INFO]: .ProGamer43254 joined the game
+[23:44:58] [Server thread/INFO]: .ProGamer43254[/24.57.60.20:0] logged in with entity id 25385 at ([Nasakills server_nether]-126.69999, 43.0, -21.572515)
+[23:46:06] [Server thread/INFO]: .ProGamer43254 has made the advancement [Hidden in the Depths]
+[23:49:38] [Server thread/INFO]: NASAKILL burned to death
+[23:49:46] [Async Chat Thread - #64/INFO]: <NASAKILL> lol
+[23:50:25] [Server thread/INFO]: NASAKILL issued server command: /tp NASAKILL 237.5 74.0 -189.5
+[23:50:25] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to 237.500000, 74.000000, -189.500000]
+[23:51:32] [Async Chat Thread - #66/INFO]: [Not Secure] <.ProGamer43254> how did u find me
+[23:52:02] [Async Chat Thread - #66/INFO]: [Not Secure] <.ProGamer43254> i also realized my netherite plan isnt ganna work
+[23:52:10] [Async Chat Thread - #66/INFO]: [Not Secure] <.ProGamer43254> cuz i have ro find a bastion
+[23:52:19] [Async Chat Thread - #66/INFO]: [Not Secure] <.ProGamer43254> i forgot about netherite upgrades
+[23:52:20] [Async Chat Thread - #66/INFO]: <NASAKILL> gonna end the server for the day sorry
+[23:52:26] [Async Chat Thread - #66/INFO]: <NASAKILL> wiat
+[23:52:34] [Async Chat Thread - #66/INFO]: [Not Secure] <.ProGamer43254> what
+[23:52:37] [Async Chat Thread - #66/INFO]: <NASAKILL> im heading to bed.
+[23:52:48] [Async Chat Thread - #66/INFO]: [Not Secure] <.ProGamer43254> k bye
+[23:52:53] [Server thread/INFO]: NASAKILL issued server command: /stop
+[23:52:53] [Server thread/INFO]: [NASAKILL: Stopping the server]
+[23:52:53] [Server thread/INFO]: Stopping server
+[23:52:53] [Server thread/INFO]: [JustTPA] Disabling JustTPA vv20240824-beta
+[23:52:53] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[23:52:53] [Server thread/INFO]: [LightAntiCheat] Disabling LightAntiCheat v1.2.6
+[23:52:53] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.4-SNAPSHOT
+[23:52:53] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[23:52:53] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
+[23:52:53] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[23:52:53] [localSession-7-3/INFO]: [Geyser-Spigot] ProGamer43254 has disconnected from the Java server because of Geyser Proxy shutting down.
+[23:52:53] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .ProGamer43254 disconnected
+[23:52:53] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[23:52:53] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.0
+[23:52:53] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[23:52:53] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b113-06f2ed9)
+[23:52:53] [Server thread/INFO]: Saving players
+[23:52:53] [Server thread/INFO]: .ProGamer43254 lost connection: Server closed
+[23:52:53] [Server thread/INFO]: .ProGamer43254 left the game
+[23:52:53] [Server thread/INFO]: NASAKILL lost connection: Server closed
+[23:52:53] [Server thread/INFO]: NASAKILL left the game
+[23:52:53] [WebSocketConnectReadThread-85/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[23:52:53] [Server thread/INFO]: Saving worlds
+[23:52:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nasakills server]'/minecraft:overworld
+[23:52:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Nasakills server'
+[23:52:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Nasakills server'
+[23:52:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Nasakills server'
+[23:52:55] [Server thread/INFO]: [ChunkHolderManager] Saved 644 block chunks, 753 entity chunks, 3 poi chunks in world 'Nasakills server' in 1.97s
+[23:52:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nasakills server_nether]'/minecraft:the_nether
+[23:52:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Nasakills server_nether'
+[23:52:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Nasakills server_nether'
+[23:52:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Nasakills server_nether'
+[23:52:57] [Server thread/INFO]: [ChunkHolderManager] Saved 1087 block chunks, 181 entity chunks, 0 poi chunks in world 'Nasakills server_nether' in 1.19s
+[23:52:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nasakills server_the_end]'/minecraft:the_end
+[23:52:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Nasakills server_the_end'
+[23:52:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Nasakills server_the_end'
+[23:52:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Nasakills server_the_end'
+[23:52:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Nasakills server_the_end' in 0.00s
+[23:52:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (Nasakills server): All chunks are saved
+[23:52:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:52:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:52:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
