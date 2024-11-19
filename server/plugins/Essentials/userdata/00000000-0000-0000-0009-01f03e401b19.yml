@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 24.57.60.20
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1731031351045
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1731033081096
+  login: 1731030492490
+money: '0'
+last-account-name: .Loltouall
+logoutlocation:
+  world: 9ddbf0b1-2d0e-42b4-811f-9e2854a7f44b
+  world-name: Nasakills server
+  x: -115.46471
+  y: 117.0
+  z: -78.342575
+  yaw: -87.9404525756836
+  pitch: 37.80528259277344
+lastlocation:
+  world: 9ddbf0b1-2d0e-42b4-811f-9e2854a7f44b
+  world-name: Nasakills server
+  x: 848.6933
+  y: 113.59071
+  z: -40.503574
+  yaw: -159.6892852783203
+  pitch: 48.1097412109375

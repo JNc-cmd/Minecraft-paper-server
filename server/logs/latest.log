@@ -1,81 +1,53 @@
-[00:03:51] [Server thread/INFO]: NASAKILL issued server command: /tp NASAKILL 58.5 23.0 0.5
-[00:03:51] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to 58.500000, 23.000000, 0.500000]
-[00:04:14] [Server thread/INFO]: NASAKILL issued server command: /tp NASAKILL -40.5 119.0 -47.5
-[00:04:14] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to -40.500000, 119.000000, -47.500000]
-[00:05:26] [Server thread/INFO]: NASAKILL lost connection: Disconnected
-[00:05:26] [Server thread/INFO]: NASAKILL left the game
-[00:22:17] [User Authenticator #5/INFO]: UUID of player NASAKILL is a44e35f0-2af3-49fe-a1a4-927c7be319a1
-[00:22:19] [Server thread/INFO]: NASAKILL joined the game
-[00:22:19] [Server thread/INFO]: NASAKILL[/172.56.69.88:8195] logged in with entity id 4286 at ([Nasakills server]-42.437846152514574, 121.0, -49.252309674142474)
-[00:24:36] [Server thread/INFO]: NASAKILL issued server command: /tp NASAKILL -40.5 119.0 -47.5
-[00:24:36] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to -40.500000, 119.000000, -47.500000]
-[00:24:36] [Server thread/WARN]: NASAKILL moved too quickly! -108.90059369558183,57.0,-222.80000001192093
-[00:24:46] [Server thread/INFO]: NASAKILL has made the advancement [We Need to Go Deeper]
-[00:25:18] [Server thread/INFO]: NASAKILL issued server command: /gamerule keepInventory true
-[00:25:18] [Server thread/INFO]: [NASAKILL: Gamerule keepInventory is now set to: true]
-[00:25:35] [Server thread/INFO]: NASAKILL was shot by Skeleton
-[00:30:12] [Server thread/INFO]: NASAKILL has made the advancement [A Terrible Fortress]
-[00:30:15] [Server thread/INFO]: NASAKILL was slain by Wither Skeleton
-[00:30:40] [Server thread/INFO]: NASAKILL issued server command: /tp NASAKILL -69.5 66.0 -2.5
-[00:30:40] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to -69.500000, 66.000000, -2.500000]
-[00:30:41] [Server thread/WARN]: NASAKILL moved too quickly! -67.73517933269218,-34.0,7.0
-[00:31:03] [Server thread/INFO]: NASAKILL issued server command: /gamemode spectator
-[00:31:03] [Server thread/INFO]: [NASAKILL: Set own game mode to Spectator Mode]
-[00:31:11] [Server thread/INFO]: NASAKILL issued server command: /gamemode survival
-[00:31:11] [Server thread/INFO]: [NASAKILL: Set own game mode to Survival Mode]
-[00:31:34] [Server thread/INFO]: NASAKILL issued server command: /gamemode spectator
-[00:31:34] [Server thread/INFO]: [NASAKILL: Set own game mode to Spectator Mode]
-[00:31:43] [Server thread/INFO]: NASAKILL issued server command: /tp NASAKILL -68.5 29.0 -18.5
-[00:31:43] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to -68.500000, 29.000000, -18.500000]
-[00:31:43] [Server thread/WARN]: NASAKILL moved too quickly! -73.05095099418953,-70.875,-11.647521064488355
-[00:32:28] [Server thread/INFO]: NASAKILL issued server command: /gamemode survival
-[00:32:28] [Server thread/INFO]: [NASAKILL: Set own game mode to Survival Mode]
-[00:33:10] [Server thread/INFO]: NASAKILL issued server command: /tp NASAKILL -67.5 68.0 -2.5
-[00:33:10] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to -67.500000, 68.000000, -2.500000]
-[00:33:10] [Server thread/WARN]: NASAKILL moved too quickly! -65.8712378517991,-31.875,5.529672245737585
-[00:33:38] [Server thread/INFO]: NASAKILL issued server command: /difficulty peaceful
-[00:33:38] [Server thread/INFO]: [NASAKILL: The difficulty has been set to Peaceful]
-[00:33:42] [Server thread/INFO]: NASAKILL lost connection: Disconnected
-[00:33:42] [Server thread/INFO]: NASAKILL left the game
-[01:13:13] [User Authenticator #6/INFO]: UUID of player NASAKILL is a44e35f0-2af3-49fe-a1a4-927c7be319a1
-[01:13:17] [Server thread/INFO]: NASAKILL joined the game
-[01:13:17] [Server thread/INFO]: NASAKILL[/172.56.69.88:18209] logged in with entity id 5678 at ([Nasakills server_nether]6.287478993267125, 99.0, -7.274042367451274)
-[01:13:43] [Server thread/INFO]: NASAKILL issued server command: /tp NASAKILL -120.5 66.0 5.5
-[01:13:43] [Server thread/INFO]: [NASAKILL: Teleported NASAKILL to -120.500000, 66.000000, 5.500000]
-[01:13:45] [Server thread/INFO]: NASAKILL lost connection: Disconnected
-[01:13:45] [Server thread/INFO]: NASAKILL left the game
-[01:14:19] [Server thread/INFO]: Stopping the server
-[01:14:19] [Server thread/INFO]: Stopping server
-[01:14:19] [Server thread/INFO]: [JustTPA] Disabling JustTPA vv20240824-beta
-[01:14:19] [Server thread/INFO]: [JustTPA] JustTPA disabled
-[01:14:19] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.4
-[01:14:19] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[01:14:19] [Server thread/INFO]: [LightAntiCheat] Disabling LightAntiCheat v1.2.6
-[01:14:19] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.4-SNAPSHOT
-[01:14:19] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[01:14:19] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[01:14:19] [WebSocketConnectReadThread-208/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[01:14:19] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.0
-[01:14:19] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[01:14:19] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b113-06f2ed9)
-[01:14:19] [Server thread/INFO]: Saving players
-[01:14:19] [Server thread/INFO]: Saving worlds
-[01:14:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nasakills server]'/minecraft:overworld
-[01:14:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Nasakills server'
-[01:14:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Nasakills server'
-[01:14:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Nasakills server'
-[01:14:19] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 126 entity chunks, 0 poi chunks in world 'Nasakills server' in 0.07s
-[01:14:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nasakills server_nether]'/minecraft:the_nether
-[01:14:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Nasakills server_nether'
-[01:14:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Nasakills server_nether'
-[01:14:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Nasakills server_nether'
-[01:14:20] [Server thread/INFO]: [ChunkHolderManager] Saved 138 block chunks, 55 entity chunks, 0 poi chunks in world 'Nasakills server_nether' in 0.40s
-[01:14:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nasakills server_the_end]'/minecraft:the_end
-[01:14:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Nasakills server_the_end'
-[01:14:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Nasakills server_the_end'
-[01:14:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Nasakills server_the_end'
-[01:14:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'Nasakills server_the_end' in 0.01s
-[01:14:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (Nasakills server): All chunks are saved
-[01:14:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:14:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:14:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:56:21] [Craft Scheduler Thread - 12972 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:56:21] [Craft Scheduler Thread - 12972 - Vault/INFO]: [Vault] No new version available
+[08:56:21] [Craft Scheduler Thread - 13350 - Vault/INFO]: [Vault] Checking for Updates ... 
+[08:56:21] [Craft Scheduler Thread - 13350 - Vault/INFO]: [Vault] No new version available
+[12:07:15] [User Authenticator #1/INFO]: Disconnecting .Jaden_delete (/146.70.144.122:50584): Failed to verify username!
+[12:07:15] [User Authenticator #1/ERROR]: Username '.Jaden_delete' tried to join with an invalid session
+[12:07:15] [Server thread/INFO]: .Jaden_delete (/146.70.144.122:50584) lost connection: Failed to verify username!
+[14:56:21] [Craft Scheduler Thread - 13727 - Vault/INFO]: [Vault] Checking for Updates ... 
+[14:56:22] [Craft Scheduler Thread - 13727 - Vault/INFO]: [Vault] No new version available
+[20:56:21] [Craft Scheduler Thread - 14115 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:56:22] [Craft Scheduler Thread - 14115 - Vault/INFO]: [Vault] No new version available
+[22:33:53] [Server thread/INFO]: Stopping the server
+[22:33:53] [Server thread/INFO]: Stopping server
+[22:33:53] [Server thread/INFO]: [JustTPA] Disabling JustTPA vv20240824-beta
+[22:33:53] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[22:33:53] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.4
+[22:33:53] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[22:33:53] [Server thread/INFO]: [LightAntiCheat] Disabling LightAntiCheat v1.2.6
+[22:33:53] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+121-f7a8f86
+[22:33:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[22:33:53] [Server thread/INFO]: [WeaponMechanicsSignShop] Disabling WeaponMechanicsSignShop v1.2.0
+[22:33:53] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.4-SNAPSHOT
+[22:33:53] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[22:33:53] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[22:33:53] [Server thread/INFO]: [WeaponMechanics] Disabling WeaponMechanics v3.5.3
+[22:33:53] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[22:33:53] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b113-06f2ed9)
+[22:33:53] [WebSocketConnectReadThread-45394/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[22:33:54] [Server thread/INFO]: [MechanicsCore] Disabling MechanicsCore v3.5.2
+[22:33:54] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[22:33:54] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.0
+[22:33:54] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[22:33:54] [Server thread/INFO]: Saving players
+[22:33:54] [Server thread/INFO]: Saving worlds
+[22:33:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nasakills server]'/minecraft:overworld
+[22:33:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Nasakills server'
+[22:33:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Nasakills server'
+[22:33:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Nasakills server'
+[22:33:54] [Server thread/INFO]: [ChunkHolderManager] Saved 6 block chunks, 131 entity chunks, 0 poi chunks in world 'Nasakills server' in 0.10s
+[22:33:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nasakills server_nether]'/minecraft:the_nether
+[22:33:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Nasakills server_nether'
+[22:33:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Nasakills server_nether'
+[22:33:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Nasakills server_nether'
+[22:33:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'Nasakills server_nether' in 0.01s
+[22:33:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Nasakills server_the_end]'/minecraft:the_end
+[22:33:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Nasakills server_the_end'
+[22:33:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Nasakills server_the_end'
+[22:33:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Nasakills server_the_end'
+[22:33:54] [Server thread/INFO]: [ChunkHolderManager] Saved 9 block chunks, 11 entity chunks, 0 poi chunks in world 'Nasakills server_the_end' in 0.03s
+[22:33:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (Nasakills server): All chunks are saved
+[22:33:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:33:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:33:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
